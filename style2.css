@@ -1,0 +1,24 @@
+@charset "utf-8";
+* {width: auto; margin: 0;padding: 0;Border: 0;outline: 0;     font-size: 100%;vertical-align: baseline;
+  background: transparent;}
+/* CSS Document */
+body {0; height: 100%;width: 100vh%;}
+
+/* Nav Start */
+nav 		{display: flex; background-color: black; overflow: hidden; padding: 5px}
+.main-nav 		{display: flex;
+list-style: none;color: white;
+margin: 0;width: 100%; overflow: hidden;}
+.push 		{margin-left: auto;}
+.push:hover 		{border-top-left-radius: 24px; border-bottom-right-radius: 24px; border-width: 0px 1px 0px 1px;  border-style:solid ; border-color: aqua; padding: 10px;overflow: hidden;}
+li 		{padding: 15px; font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"; margin-left: 10px;overflow: hidden;}
+.button:hover 		{border-top-left-radius: 24px; border-bottom-right-radius: 24px; border-width: 0px 1px 0px 1px;  border-style:solid ; border-color: aqua; padding: 10px;margin-left: 18px;overflow: hidden;}
+a {text-decoration: none;}
+a:visited {text-decoration: none;}
+.avatar 		{color: white;border: 3px solid white; background-color: aqua; padding:10px; border-radius: 100px 100px 100px 100px;align-self: center;overflow: hidden;}
+
+/* Nav End */
+.cover 		{background-color: black; font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";height: 90vh; color: aqua; font-size: 25vw; width: 100%; display:flex;overflow: hidden;}
+footer 		{display:flex; justify-content: center; align-items: center; background-color: aqua;line-height: 30px;font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"; height: 3vh; margin: 0 auto; color: white;border-top: thin solid black; padding: 1px; margin-bottom:0px; position:absolute; bottom:0; overflow: hidden;height:auto;min-width:99.85%;max-width:99.85%;}
+.tag {text-decoration: none;}
+.tag:visited {color: white;}
