@@ -2,8 +2,7 @@
 * 			{width: auto; margin: 0;padding: 0;Border: 0;outline: 0;     font-size: 100%;vertical-align: baseline;
   			background: transparent;}
 /* CSS Document */
-body 		{0; height:;width:;}
-
+body 		{}
 /* Nav Start */
 nav 		{display: flex; overflow: hidden; padding: 5px;}
 .main-nav 		{display: flex;
@@ -22,17 +21,15 @@ li 			{padding: 15px; font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet 
 a 			{text-decoration: none;}
 a:visited 	{text-decoration: none;}
 .avatar 		{color: white;border: 3px solid black; background-color: aqua; padding:10px; border-radius: 100px 100px 100px 100px;align-self: center;overflow: hidden;}
-
-
 /* Nav End */
-
-.cover 		{flex-direction: column;justify-content: center; font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";height: 70vh; color: aqua; font-size: 25vw; width: 100%; display:flex;overflow: hidden;}
-footer 		{display:flex; justify-content: center; align-items: center; background-color: aqua;line-height: 30px;font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"; height: 3vh; margin: 0 auto; color: white;border-top: thin solid ; padding: 1px; margin-bottom:0px; position:absolute; bottom:0; overflow: hidden;height:auto;min-width:99.85%;max-
-			width:90.85%;}
+.cover 		{flex-direction: column;justify-content: center; font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+			height: 70vh; color: aqua; font-size: 25vw; width: 100%; display:flex;overflow: hidden;}
+.content {min-height: 90%; max-height: 90%;position: relative;}
+.innercontent {min-height: 91vh;padding-bottom: 20px;}
 .tag 		{text-decoration: none;}
 .tag:visited {color: white;}
-
 /* Login form */
+
 h1.daley {vertical-align: middle;}
 
 .loginContainer {background-color: white;border: 2px solid black;width: 300px;padding: 20px;margin-left: 100px;
@@ -43,13 +40,14 @@ h1.daley {vertical-align: middle;}
 			;border: 1px solid black; margin: 5px;}
 #submit 	{background-color: aqua;text-decoration: none;color: white;border: 1px solid black; padding: 5px; margin-left: 100px;margin-top: 10px;}
 #submit a 	{text-decoration: none; color: white;}
-
-
 /* End of login form */
 
-.sandbox {display: flex; justify-content: center;margin: bottom: 50px;}
+.sandbox {display: flex; justify-content: center;margin: bottom: 50px; background: transparent; height: 200px;}
 /*.play {;border-radius: 20px 20px 20px 20px ;padding: 5px;}*/
-
+footer 		{display:flex; justify-content: center; align-items: center; background-color: aqua;line-height: 30px;
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"; height: 3vh; margin: 0 auto;
+	 color: white;border-top: thin solid ; padding: 1px; margin-bottom:0px;position: absolute; bottom:0; overflow: hidden;
+	 height:auto;min-width:99.84%; max-width: 1100%; vertical-align: bottom;}
 
 
 
