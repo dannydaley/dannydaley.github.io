@@ -116,8 +116,8 @@ li 			{padding: 15px;
 
 .tag:visited {color: white;
 		}
-
-.nothing h1 		{flex-direction: column;
+.nothing {height: 50vh;}
+.nothing h1 {flex-direction: column;
 			justify-content: center;
 			height: 70vh;
 			color: aqua;
@@ -209,6 +209,7 @@ h1.daley 	{vertical-align: middle;
 			background: transparent;
 			height: 100px;
 		}
+.sandbox a:hover {cursor: default;}
 
 /*.play 	{border-radius: 20px 20px 20px 20px;
 			padding: 5px;
@@ -359,4 +360,65 @@ footer 		{display:flex;
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+}
+/*@media screen and (min-width: 980px) {
+  body {
+    background: red;
+  }
+}
+
+@media screen  and (max-width: 979px) {
+  body {
+    background: blue;
+  }
+  .about{display: flex; flex-direction: column; align-items: center;}
+ .about .cliff{padding: 0;min-height: 500px;min-width: 500px; max-height: 500px; max-width: 500px; margin-bottom: 50px;}
+  .card {font-size: 75%;}
+}
+
+@media screen and (max-width: 500px){
+  body {
+    background: green;
+  }
+}*/
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { body {
+    background: blue;
+  }
+  .about{display: flex; flex-direction: column; align-items: center;}
+ .about .cliff{padding: 0;min-height: 500px;min-width: 500px; max-height: 500px; max-width: 500px; margin-bottom: 50px;}
+  .card {font-size: 75%;} 
+
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+  	body {background: yellow;}
+  .innercontent {margin-top: -50px;}
+  .about{display: flex; flex-direction: column; align-items: center;}
+ .about .cliff{padding: 0;min-height: 500px;min-width: 500px; max-height: 500px; max-width: 500px; margin-bottom: 50px;}
+  .card {font-size: 75%;}
+  .wrapper {padding-bottom: 20px;}
+  footer {height: 100px; padding: 0;}
+}
+/* Landscape */
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+  body {background: blue;}
+  .innercontent {margin-top: -50px;}
+
 }
