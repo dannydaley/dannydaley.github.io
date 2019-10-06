@@ -15,7 +15,6 @@ a {
   text-decoration: inherit;
 }
 
-
 /* CSS Document */
 .wrapper 	{min-height: 98.9vh; position: relative;
 			padding-bottom: 10px;overflow: hidden
@@ -106,18 +105,15 @@ li 			{padding: 15px;
 			max-height: 90%;
 			position: relative;
 		}
-
-.innercontent {/*min-height: 70vh*/;
-			padding-bottom: ;
-		}
-
 .tag 		{text-decoration: none;
 		}
 
 .tag:visited {color: white;
 		}
 
-.nothing h1 		{flex-direction: column;
+.nothing {height: 50vh;}
+
+.nothing h1 {flex-direction: column;
 			justify-content: center;
 			height: 70vh;
 			color: aqua;
@@ -126,6 +122,7 @@ li 			{padding: 15px;
 			display:flex;
 			overflow: hidden;
 		}
+
 .nothing h3 {
 			color: aqua;
 			width: 100%;
@@ -156,8 +153,8 @@ li 			{padding: 15px;
 
 .article 	{margin-top: 100px;
 			text-shadow: 0px 1px 5px grey;
-			color: black;  transition: all 3s 3s;transform: ;
-		}
+			color: black;
+			}
 
 .article img {padding: 10px 10px 10px 30px;
 			float: right;
@@ -209,16 +206,13 @@ h1.daley 	{vertical-align: middle;
 			background: transparent;
 			height: 100px;
 		}
-
-/*.play 	{border-radius: 20px 20px 20px 20px;
-			padding: 5px;
-			}*/
+.sandbox a:hover {cursor: default;}
 
 .codes  {margin-top: 100px;display: inline-block;}
-.codes img {}
 
 footer 		{display:flex;
-			justify-content: center;
+			justify-content:center;
+			flex-direction: ;
 			align-items: center;
 			background-color: aqua;
 			line-height: 30px;
@@ -236,11 +230,12 @@ footer 		{display:flex;
 			width:100%;
 			vertical-align: bottom;
 		}
+
+.email {margin-left: 10%}
+
 .link {text-decoration: underline;}
+
 /*Animations*/
-
-
-
 
 .cliff {
 	-webkit-animation: slideInFromRight 1s; /* Safari, Chrome and Opera > 12.1 */
@@ -359,4 +354,150 @@ footer 		{display:flex;
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+
+/* SCREEN RESOLUTIONS */
+
+@media screen and (max-width: 1168px) /* SMALL DESKTOP */{
+  .card {font-size: 90%;}}
+
+
+@media screen  and (max-width: 979px) /* TABLET */ {
+
+ .about		{display: flex; flex-direction: column; align-items: center;}
+ .about .cliff		{padding: 0;min-height: 500px;min-width: 500px; max-height: 500px; max-width: 500px; margin-bottom: 50px;}
+ .card		 {font-size: 75%;}
+ .blogpost 	{margin-bottom: 300px; font-size: 0.7rem;}
+ .sandbox 	{margin-top: -100px;}
+ .codes img {min-height: 100px; min-width: 100px; max-height: 150px; max-width: 150px;}
+ footer 	{height: 100px;}
+}
+
+@media screen and (max-width: 740px) /*SMART PHONE*/ {
+
+ .about .cliff {display: flex;
+ 				padding: 0;
+ 				min-height: 350px;
+ 				min-width: 350px;
+ 				max-height: 350px;
+ 				max-width: 350px;
+ 				margin-bottom: 50px;
+ 			}
+
+ .article 		{display:flex;
+ 				flex-direction: column;
+ 				align-items:center;
+ 				margin-bottom: 300px;
+ 				font-size: 0.5rem;
+ 			}
+
+ .blogpost .snow {padding: 0;
+ 				min-height: 350px;
+ 				min-width: 350px;
+ 				max-height: 350px;
+ 				max-width: 350px;
+ 				margin-bottom: 50px;
+ 			}
+
+ .codes img		 {min-height: 50px;
+ 				min-width: 50px;
+ 				max-height: 100px;
+ 				max-width: 100px;
+ 			}
+
+ .sandbox 		{margin-top: -150px;
+ 			}
+
+  footer 		{height: 150px;
+  			}
+
+ .blogpost h1 {font-size: 400%;
+ 			}
+}
+
+/* IPHONE */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 900px) 
+  and (-webkit-min-device-pixel-ratio: 2) { body {
+    background:;
+  }
+  .about{display: flex;
+  		flex-direction: column;
+  		align-items: center;
+  	}
+ .about .cliff{padding: 0;
+ 		min-height: 500px;
+ 		min-width: 500px;
+ 		max-height: 500px;
+ 		max-width: 500px;
+ 		margin-bottom: 50px;
+ 	}
+
+  .card {font-size: 90%;
+  }
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 900px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+
+  	body {}
+  .innercontent {margin-top: -150px;
+  				}
+
+  .about{display: flex;
+  		flex-direction: column;
+  		align-items: center;
+  	}
+
+ .about .cliff{padding: 0;
+ 			min-height: 500px;
+ 			min-width: 500px;
+ 			max-height: 500px;
+ 			max-width: 500px;
+ 			margin-bottom: 50px;
+ 		}
+
+  .card {font-size: 75%;
+  		}
+
+  .wrapper {padding-bottom: 20px;
+  		}
+
+  footer {height: 150px;
+  		padding: 0;
+  		margin-top: 100px;
+  	}
+
+  .blogpost {margin-bottom: 300px;
+  }
+
+  .sandbox {margin-top: -250px;
+  }
+}
+/* Landscape */
+
+@media only screen 
+  and (min-device-width: 300px) 
+  and (max-device-width: 900px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+  body {}
+   .innercontent .daley {font-size: 75%;
+   						margin-top: -100px;
+   					}
+
+  .cover {margin-top: -50px;
+  		}
+  .sandbox {margin-top: -100px;
+  			margin-bottom: -50px;
+  		}
+
 }
