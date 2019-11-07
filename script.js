@@ -13,7 +13,7 @@ function check()
 stylechange.addEventListener("click", function() { changeBackground(); });
 
 function changeBackground(color) {
-   if (document.body.style.background === "black") {document.body.style.background = "white"; document.getElementById("main").style.color = "black";}
-   	else {document.body.style.background = "black"; document.getElementById("main").style.color = "white"};
+   if (document.body.style.background === "white") {document.body.style.background = "black"; document.getElementById("main").style.color = "white";}
+   	else {document.body.style.background = "white"; document.getElementById("main").style.color = "black"};
 
 };
