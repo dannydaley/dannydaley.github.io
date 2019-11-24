@@ -1004,7 +1004,7 @@ footer {
 /*styles nav elements into block and uppercarse etc */
 .main-nav-list a{
     display: block;
-    font-size: 2rem;
+    font-size: 5vh;
     letter-spacing: 3px;
     margin-bottom: 15px;
     opacity: 0;
@@ -1047,7 +1047,7 @@ footer {
 .main-nav-list.active ul{
 	padding-top: 75px;
 	width: 90vw;
-	height: 45vh;
+	height: 55vh;
 	border: 5px solid black;
 	background-color: aqua
 	;
