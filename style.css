@@ -1006,12 +1006,15 @@ footer {
     display: block;
     font-size: 5vh;
     letter-spacing: 3px;
-    margin-bottom: 15px;
+    margin-bottom: 1vh;
     opacity: 0;
     text-align: center;
     text-transform: uppercase;
     transition-delay: 130ms;
+ /*   padding-bottom: 10vh;*/
 }
+
+
 
 .main-nav-list.active a{
     transition-delay: 600ms;
@@ -1037,7 +1040,9 @@ footer {
     box-shadow: 0px 3px 13px rgba(0,0,0,.4);
     transform: translate(0,-14px) rotate(-45deg);
 }
-
+.space a {
+	margin/*-bottom*/: 2vh;
+}
 .main-nav-list.active::before,
 .main-nav-list.active::after{
 /*    width: 25vw;*/
@@ -1045,7 +1050,7 @@ footer {
 }
 /*pulls menu down from hidden*/
 .main-nav-list.active ul{
-	padding-top: 75px;
+	padding: 3vh;
 	width: 90vw;
 	height: 55vh;
 	border: 5px solid black;
@@ -1060,7 +1065,7 @@ footer {
 
 .main-nav-list.active a{
     transition-delay: 600ms;
-    opacity: 1;
+    opacity: 1; padding-bottom: 2vh;
 }
 
 .innercontent.active, .content.active, .projects.active {
