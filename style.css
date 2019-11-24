@@ -446,7 +446,7 @@ footer 	{
   .card {font-size: 90%;}}
 
 
-@media screen  and (max-width: 979px) /* TABLET */ {
+/*@media screen  and (max-width: 979px) *//* TABLET */ /*{
 
  .about		{
  	display: flex;
@@ -469,7 +469,7 @@ footer 	{
 
  .blogpost 	{
 /* 	margin-bottom: 300px;*/
- 	font-size: 0.7rem;
+ /*	font-size: 0.7rem;
  }
 
  .sandbox {
@@ -486,7 +486,7 @@ footer 	{
 footer 	{
 	height: 100px;
 }
-}
+}*/
 
 @media screen and (max-width: 979px) /*SMART PHONE*/ {
 
