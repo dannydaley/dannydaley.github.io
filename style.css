@@ -488,7 +488,7 @@ footer 	{
 }
 }
 
-@media screen and (max-width: 740px) /*SMART PHONE*/ {
+@media screen and (max-width: 900px) /*SMART PHONE*/ {
 
  .about .cliff {
  	display: flex;
@@ -576,7 +576,7 @@ footer 	{
 /* IPHONE */
 
 /* Portrait and Landscape */
-@media only screen 
+/*@media only screen 
   and (min-device-width: 300px) 
   and (max-device-width: 900px) 
   and (-webkit-min-device-pixel-ratio: 2) { body {
@@ -604,99 +604,58 @@ footer 	{
 .navbutton {
 	visibility: hidden;
 	display: none;
-}}
+}}*/
 /* Portrait */
-@media only screen 
+/*@media only screen 
   and (min-device-width: 300px) 
   and (max-device-width: 900px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: portrait) {
 
- .about .cliff {
- 	display: flex;
- 	padding: 0;
- 	min-height: 350px;
- 	min-width: 350px;
- 	max-height: 350px;
- 	max-width: 350px;
- 	margin-bottom: 50px;
- }
-
- .article {
- 	display:flex;
- 	flex-direction: column;
- 	align-items:center;
- 	margin-bottom: 300px;
- 	font-size: 0.5rem;
- }
-
- .blogpost .snow {
- 	padding: 0;
- 	min-height: 350px;
- 	min-width: 350px;
- 	max-height: 350px;
- 	max-width: 350px;
- 	margin-bottom: 50px;
- }
-
- .codes img	{
- 	min-height: 50px;
- 	min-width: 50px;
- 	max-height: 100px;
- 	max-width: 100px;
- }
-
- .sandbox {
- 	margin-top: -150px;
- }
-
- footer {
- 	height: 150px;
- }
-
- .blogpost h1 {
- 	font-size: 400%;
+.innercontent {
+  	margin-top: -150px;
 }
 
-.projects {
-	margin-bottom: 300px;
-	padding: 0;
+.about{
 	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
-	padding: 20px;
+  	flex-direction: column;
+  	align-items: center;
 }
-.projects > * {display: block;
-	margin-left: 2%;
-}
-.project h2, .project p{
-	padding-bottom: 20px;
-	width: 300px;
-	margin: 0 30px;
-}
-.project img {
-	margin-left: 7%;
-	padding-bottom: 75px;
-}
-.project {
-	width: 500px;
+
+.about .cliff{
 	padding: 0;
-	padding-top: 50px;
-}
-.makki img {
-	margin-left: 15%;
+ 	min-height: 500px;
+ 	min-width: 500px;
+ 	max-height: 500px;
+ 	max-width: 500px;
+ 	margin-bottom: 50px;
 }
 
-.menuButton {
-	display: inline-block;
+.card {
+	font-size: 75%;
 }
-.navbutton {
-	visibility: hidden;
-	display: none;
-}}
 
+.wrapper {
+	padding-bottom: 200px;
+	margin-bottom: 500px;
+}
+
+footer {
+	height: 150px;
+  	padding: 0;
+  	margin-top: 100px;
+}
+
+.blogpost {
+	margin-bottom: 300px;
+}
+
+.sandbox {
+	margin-top: -250px;
+}*/
+}
 /* Landscape */
-
+/*
 @media only screen 
   and (min-device-width: 300px) 
   and (max-device-width: 900px) 
@@ -716,7 +675,7 @@ footer 	{
 	margin-bottom: -50px;
 }
 
-}
+}*/
 
 /* S A N D  B O X */
 /*clock start */
