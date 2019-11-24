@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta charset="utf-8">
+		<title>danny.daley</title>
+		<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body onload="pageClock(); setInterval('pageClock()', 1000 )">	
+		<nav>
+		  	<ul class="main-nav" id="main">
+			 	<li class="avatar" id="stylechange"><strong>D&sup2;</strong></li>
+				<li class="push navbutton"><a href="index.html">&nbsp;&nbsp;home&nbsp;&nbsp;</a></li> 
+		    	<li class="button navbutton"><a href="aboutme.html">about me</a></li>
+		    	<li class="button navbutton"><a href="blog.html">&nbsp;&nbsp;&nbsp;blog&nbsp;&nbsp;&nbsp;</a></li>
+		    	<li class="button navbutton"><a href="projects.html">projects</a></li>
+		  	</ul>
+			<div id="menuButton" class="menuButton active-element">
+				<div class="one"></div>
+				<div class="two"></div>
+				<div class="three"></div>
+			</div>
+			<div class="main-nav-list active-element">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="aboutme.html">about</a></li>
+					<li><a href="blog.html">blog</a></li>
+					<li><a href="projects.html">projects</a></li>
+				</ul>
+			</div>
+		</nav>
+
+
+<!-- CLOCK START -->
+
+<div class="clock">
+	<h1>The time is:</h1>
+	<h2><span id="clock1" onload="pageClock(); setInterval('pageClock()', 1000 )">time</span></h2>
+</div>
+
+<!-- LOGIN FORM START -->
+<div class="loginContainer">
+<label for="uname" class="cred">Username:</label>
+<input type="text" placeholder="Enter Username" id="uname" required class="field">
+
+<label for="psw" class="cred">Password :</label>
+<input type="password" placeholder="Enter Password" id="psw" required class="field">
+<br>
+
+<input type="checkbox" checked="checked" name="remember"> 
+Remember me</label>
+<button type="submit" id="submit"><strong>Login</strong></button>
+<label>
+</div>
+
+
+<div class="insidePage active-element">
+	<div class="slide">
+	<div id="menuButton" class="menuButton active-element">
+		<div class="one"></div>
+
+		<div class="two"></div>
+
+		<div class="three"></div>
+	</div>
+</div>
+<div class="main-nav-list active-element">
+	<ul>
+		<li><a href="#">Home</a></li>
+		<li><a href="#">about</a></li>
+		<li><a href="#">contact</a></li>
+	</ul>
+</div>
+
+
+</div>
+<!-- LOGIN FORM END -->
+	<script type="text/javascript" src="script.js"></script>
+		<footer><a href="index.html" class="tag">&copy; <strong>danny.daley</strong> 2019</a></footer>
+
+
+
+
+
+
+</body>
+</html>
