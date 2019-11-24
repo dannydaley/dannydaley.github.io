@@ -539,30 +539,28 @@ footer 	{
 .projects {
 	margin-bottom: 300px;
 	padding: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
 	padding: 20px;
 }
 .projects > * {display: block;
-	margin-left: 2%;
+	margin-left: 5%;
 }
 .project h2, .project p{
 	padding-bottom: 20px;
-	width: 300px;
-	margin: 0 30px;
+	width: 60vw;
 }
 .project img {
-	margin-left: 7%;
+	display: block;
+	margin: 0 auto;
 	padding-bottom: 75px;
 }
 .project {
-	width: 500px;
+	width: 60vw;
 	padding: 0;
 	padding-top: 50px;
+	margin: 0 auto;
 }
 .makki img {
-	margin-left: 15%;
+	margin: 0 auto;
 }
 
 .menuButton {
@@ -582,8 +580,7 @@ footer 	{
   and (-webkit-min-device-pixel-ratio: 2) { 
 
 
-
- .about .cliff {
+.about .cliff {
  	display: flex;
  	padding: 0;
  	min-height: 350px;
@@ -632,30 +629,28 @@ footer 	{
 .projects {
 	margin-bottom: 300px;
 	padding: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
 	padding: 20px;
 }
 .projects > * {display: block;
-	margin-left: 2%;
+	margin-left: 5%;
 }
 .project h2, .project p{
 	padding-bottom: 20px;
-	width: 300px;
-	margin: 0 30px;
+	width: 60vw;
 }
 .project img {
-	margin-left: 7%;
+	display: block;
+	margin: 0 auto;
 	padding-bottom: 75px;
 }
 .project {
-	width: 500px;
+	width: 60vw;
 	padding: 0;
 	padding-top: 50px;
+	margin: 0 auto;
 }
 .makki img {
-	margin-left: 15%;
+	margin: 0 auto;
 }
 
 .menuButton {
@@ -666,6 +661,7 @@ footer 	{
 	display: none;
 }}
 
+
 /* Portrait */
 @media only screen 
   and (min-device-width: 300px) 
@@ -674,7 +670,7 @@ footer 	{
   and (orientation: portrait) {
 
 
- .about .cliff {
+.about .cliff {
  	display: flex;
  	padding: 0;
  	min-height: 350px;
@@ -723,30 +719,28 @@ footer 	{
 .projects {
 	margin-bottom: 300px;
 	padding: 0;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-around;
 	padding: 20px;
 }
 .projects > * {display: block;
-	margin-left: 2%;
+	margin-left: 5%;
 }
 .project h2, .project p{
 	padding-bottom: 20px;
-	width: 300px;
-	margin: 0 30px;
+	width: 60vw;
 }
 .project img {
-	margin-left: 7%;
+	display: block;
+	margin: 0 auto;
 	padding-bottom: 75px;
 }
 .project {
-	width: 500px;
+	width: 60vw;
 	padding: 0;
 	padding-top: 50px;
+	margin: 0 auto;
 }
 .makki img {
-	margin-left: 15%;
+	margin: 0 auto;
 }
 
 .menuButton {
@@ -819,15 +813,15 @@ footer 	{
 	padding: 20px;
 }
 .projects > * {display: block;
-	margin-left: 2%;
+	margin-left: 5%;
 }
 .project h2, .project p{
 	padding-bottom: 20px;
 	width: 300px;
-	margin: 0 30px;
+/*	margin: 0 10%;*/
 }
 .project img {
-	margin-left: 7%;
+/*	margin-left: 7%;*/
 	padding-bottom: 75px;
 }
 .project {
