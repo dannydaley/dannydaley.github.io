@@ -125,7 +125,10 @@ const blogHTML = `<div class="content active-element">
           <img class="snow" src="snow.png" width="300px" height="300px">
           <p>I'm an <strong>aspiring Web Developer</strong> from Newquay, Cornwall UK, and I've hated my job
           for just over three years now. I currently work in a factory, fixing and maintaining mass production
-          machinery that's well past its sell-by date and quite frankly, it's just the worst. Everythings busted yet expected to work like its fresh out of the box and in the end it's my ass if it needs replacement parts, and all with zero recognition of doing a great job. Don't get me wrong, I like that i get to solve problems and against all odds be able to get something running and working. But not like this, NOT LIKE THIS.  </p>
+          machinery that's well past its sell-by date and quite frankly, it's just the worst. Everythings busted
+           yet expected to work like its fresh out of the box and in the end it's my ass if it needs replacement parts,
+            and all with zero recognition of doing a great job. Don't get me wrong, I like that I get to solve problems and against all
+             odds be able to get something running and working. But not like this, NOT LIKE THIS.  </p>
           <hr>
           <p>Fortunately enough for me, I happened upon Web Development, and I've finally found that thing that I want to do.
           But having said that, it does come with it's own problems. I'm not great at it, I said it, people all over the internet exclaim how easy it is to write code and create fantastic looking websites but truth be told, I think its pretty tough. At times its irritating, frustrating and sometimes it just doesnt seem to make any sense, but then it eventually clicks in your mind and you find the sense within it, and then it's very rewarding. I love it when it all comes together, and I'm putting everything I've got into learning the craft,<strong> I want to be able to call myself a professional one day.</strong></p>
