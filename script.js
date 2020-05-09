@@ -1,3 +1,4 @@
+//TARGETS FOR NAVIGATION LINKS
 const home = document.getElementById('home');
 const about = document.getElementById('about');
 const blog = document.getElementById('blog');
@@ -9,11 +10,24 @@ const blog2 = document.getElementById('blog2')
 const projects2 = document.getElementById('projects2')
 var stylechange = document.getElementById("stylechange");
 var main = document.getElementById("main")
-
-const loadHome = () =>  mainWindow.innerHTML = indexHTML;
-const loadAbout = () => mainWindow.innerHTML = aboutHTML;
-const loadBlog = () => mainWindow.innerHTML = blogHTML;
-const loadProjects = () => mainWindow.innerHTML = projectsHTML;
+//HTML VARIABLES FOR EACH PAGE
+const loadHome = () =>  {
+  mainWindow.innerHTML = indexHTML;
+  menuToggle();
+}
+const loadAbout = () => {
+  mainWindow.innerHTML = aboutHTML;
+  menuToggle();
+}
+const loadBlog = () => {
+  mainWindow.innerHTML = blogHTML;
+  menuToggle();
+}
+const loadProjects = () => {
+  mainWindow.innerHTML = projectsHTML;
+  menuToggle();
+}
+//NAV CLICK EVENTS
 home.addEventListener('click' , loadHome);
 home2.addEventListener('click', loadHome);
 about.addEventListener('click', loadAbout);
@@ -22,8 +36,19 @@ blog.addEventListener('click' ,  loadBlog);
 blog2.addEventListener('click', loadBlog);
 projects.addEventListener('click', loadProjects);
 projects2.addEventListener('click', loadProjects);
-
-
+//HAMBURGER MENU FOR SMALL SCREEN RESOLUTIONS
+const menuToggle = () => {
+     for(var activated = 0; activated < activeElements.length; activated++){
+          activeElements[activated].classList.toggle("active");
+        }};
+var menuButton = document.querySelector("#menuButton");
+var activeElements = document.querySelectorAll(".active-element");
+var toggledMenu = menuButton.addEventListener("click", menuToggle);
+     // forEach is not supported in IE11
+  // activeElements.forEach(function(e){
+  //     e.classList.toggle("active");
+  // });
+// STYLE CHANGER BUTTON
 stylechange.addEventListener("click", function() {
  changeBackground();
  });
@@ -37,7 +62,7 @@ function changeBackground(color) {
      document.getElementById("main").style.color = "black"
    };
 };
-
+//RAW HTML FOR PAGES
 const indexHTML = ` <div class="innercontent active-element">
         <div class="cover">
           <h1 class="daley">.daley</h1>
@@ -107,7 +132,7 @@ const projectsHTML = `<div class="projects active-element">
       </div>
     </div>
     </div>`
-
+//PAGE FILL FOR INITIAL LOAD
 mainWindow.innerHTML = indexHTML;
 
 
@@ -130,15 +155,3 @@ var clock1 = document.getElementById("clock1");
 	clock1.firstChild.nodeValue = time;
 }
 
-
-var menuButton = document.querySelector("#menuButton");
-var activeElements = document.querySelectorAll(".active-element");
-var toggledMenu = menuButton.addEventListener("click", function(){
-     // forEach is not supported in IE11
-  // activeElements.forEach(function(e){
-  //     e.classList.toggle("active");
-  // });
-     for(var activated = 0; activated < activeElements.length; activated++){
-          activeElements[activated].classList.toggle("active");
-     }
-})
