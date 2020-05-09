@@ -310,6 +310,9 @@ footer 	{
 .link {
 	text-decoration: underline;
 }
+.link:hover {
+	cursor: pointer;
+}
 
 /*Animations*/
 

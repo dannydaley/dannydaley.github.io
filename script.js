@@ -10,7 +10,7 @@ const blog2 = document.getElementById('blog2')
 const projects2 = document.getElementById('projects2')
 var stylechange = document.getElementById("stylechange");
 var main = document.getElementById("main")
-//HTML VARIABLES FOR EACH PAGE
+//HTML VARIABLES FOR EACH PAGE 
 const loadHome = () => {
   mainWindow.innerHTML = indexHTML;
 }
@@ -103,7 +103,7 @@ const aboutHTML = `<div class="content active-element">
           <img class="cliff" src="cliff.png" width="500px" height="500x">
           <p>I'm an <strong>aspiring Web Developer</strong> from Newquay, Cornwall UK. When I'm not coding,
            you'll find me studying new ways to fix coding challenges, drawing, surfing or skating.&nbsp;&nbsp;
-          <a class="link" href="blog.html#intro">Read more..</a></p>
+          <span class="link" onclick='loadBlog()' document.getElementById('intro').focus('intro') "blogHTML#intro">Read more..</span></p>
           <div class="codes"> 
             <img src="jslogo.png"width="150px" height="150px">
             <img src="css3.png" width="150px" height="150px">
