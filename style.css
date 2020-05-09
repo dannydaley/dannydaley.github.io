@@ -836,7 +836,10 @@ footer 	{
 }
 /*pulls menu down from hidden*/
 .main-nav-list.active ul{
-	padding-top: 75px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	padding: 25px;
 	width: 90vw;
 	height: 45vh;
 	border: 5px solid black;
