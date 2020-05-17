@@ -39,6 +39,7 @@ const loadProjects2 = () => {
   mainWindow.innerHTML = projectsHTML;
   menuToggle();
 }
+
 //NAV CLICK EVENTS
 
 home.addEventListener('click' , loadHome);
@@ -103,7 +104,7 @@ const aboutHTML = `<div class="content active-element">
           <img class="cliff" src="cliff.png" width="500px" height="500x">
           <p>I'm an <strong>aspiring Web Developer</strong> from Newquay, Cornwall UK. When I'm not coding,
            you'll find me studying new ways to fix coding challenges, drawing, surfing or skating.&nbsp;&nbsp;
-          <span class="link" onclick='loadBlog()' document.getElementById('intro').focus('intro') "blogHTML#intro">Read more..</span></p>
+          <span class="link" onclick='loadBlog()'  "blogHTML#intro">Read more..</span></p>
           <div class="codes"> 
             <img src="jslogo.png"width="150px" height="150px">
             <img src="css3.png" width="150px" height="150px">
@@ -152,6 +153,10 @@ const projectsHTML = `<div class="projects active-element">
         It came with its challenges, but its hard to stay frustrated when you're working with these kind of images. </p>
         <a href="https://dannydaley.github.io/makkioikui" target="_blank"><img src="makki.png" height="200px"></a>
       </div>
+      <div class="project eightBall">
+        <h2><a href="https://dannydaley.github.io/eightBall/" target="_blank">Magic 8-Ball</a></h2>
+        <p>Had some fun and made a small Magic 8-Ball web app using some basic HTML, CSS shapes and simple JavaScript switch statement logic.</p>
+        <a href="https://dannydaley.github.io/eightBall/" target="_blank"><img src="eightBall.png" height="150px"></a> 
     </div>
     </div>`
 //PAGE FILL FOR INITIAL LOAD
@@ -176,4 +181,3 @@ var clock1 = document.getElementById("clock1");
 //EXECUTION
 	clock1.firstChild.nodeValue = time;
 }
-

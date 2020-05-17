@@ -190,6 +190,12 @@ li 		{
 	padding: 10px;
 	margin-bottom: 100px;
 }
+.eightBall {
+	margin-left: 50px;
+}
+.eightBall p {
+	margin-left: 50px;
+}
 .project img{
 	display: inline-block;
 }
