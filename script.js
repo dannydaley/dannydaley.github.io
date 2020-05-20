@@ -124,15 +124,10 @@ const blogHTML = `<div class="content active-element">
         <hr>
         <div class="article" id="intro">
           <img class="snow" src="snow.png" width="300px" height="300px">
-          <p>I'm an <strong>aspiring Web Developer</strong> from Newquay, Cornwall UK, and I've hated my job
-          for just over three years now. I currently work in a factory, fixing and maintaining mass production
-          machinery that's well past its sell-by date and quite frankly, it's just the worst. Everythings busted
-           yet expected to work like its fresh out of the box and in the end it's my ass if it needs replacement parts,
-            and all with zero recognition of doing a great job. Don't get me wrong, I like that I get to solve problems and against all
-             odds be able to get something running and working. But not like this, NOT LIKE THIS.  </p>
+          <p>I'm an <strong>aspiring Web Developer</strong> from Newquay, Cornwall UK, and I've been writing code in my spare time for around a year.
+          I'm a Machine Setter by day with the sole responsibility of keeping machines operational and running optimally, I've always loved getting something to work!</p>
           <hr>
-          <p>Fortunately enough for me, I happened upon Web Development, and I've finally found that thing that I want to do.
-          But having said that, it does come with it's own problems. I'm not great at it, I said it, people all over the internet exclaim how easy it is to write code and create fantastic looking websites but truth be told, I think its pretty tough. At times its irritating, frustrating and sometimes it just doesnt seem to make any sense, but then it eventually clicks in your mind and you find the sense within it, and then it's very rewarding. I love it when it all comes together, and I'm putting everything I've got into learning the craft,<strong> I want to be able to call myself a professional one day.</strong></p>
+          <p>It's an ambition of mine to leave the day job behind and write code full-time, and I'm putting everything I've got into learning the craft and<strong> overcoming new coding challenges.</strong></p>
           <p>This blog section of my website will feature anything that I think may be of interest, but primarily I'm going to try and stay on topic and post articles regarding Web Development, more specifically things I have struggled with and either figured out or found the answer to, I haven't come across many things in life more irritating than a footer that <strong>should</strong>, but won't, stick to the bottom of the page. Hopefully this will help somebody out there daunted by the simple things, that turn out to not be that simple!
         </div>
       </div>
