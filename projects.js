@@ -1,4 +1,3 @@
-
 //HTML TEMPLATE FOR PROJECT SECTION
 const more = `
       <!-- PROJECTS START -->
@@ -31,7 +30,7 @@ const more = `
               <a href="http://alexjdesigns.co.uk" target="_blank">
                 <p>Alex J Designs</p>
               </a>
-              <p>Working on the website for Alex J Designs was a real pleasure, and it was a great oppertunity to work with some great artwork. Coded as a Single Page Application to help the site navigation to feel more fluid, it was definitely a chance to experiment and try out some new ideas.</p>
+              <p>Working on the website for Alex J Designs was a real pleasure, and it was a great opportunity to work with some great artwork. Coded as a Single Page Application to help the site navigation to feel more fluid, it was definitely a chance to experiment and try out some new ideas.</p>
             </div>
             <a href="http://alexjdesigns.co.uk" target="_blank">
               <img src="alexj.png" alt="">
@@ -105,12 +104,12 @@ const projectWindow = document.getElementById('projWindow')
           projectWindow.innerHTML = less;
 //TARGETS FOR NAVIGATION LINKS
 let seeMore = document.getElementById('seeMore');
-let seeLess = '';
+let seeLess = '';//EMPTY VARIABLE TO AVOID ADDEVENTLISTENER OF NULL ON PAGE LOAD
 const loadMore = () => {
     if (projectWindow.innerHTML === less) {
     projectWindow.innerHTML = more;
-    window.location.hash = 'projWindow';
-    seeLess = document.getElementById('seeLess');
+    window.location.hash = 'projWindow';//WINDOW FOCUS PROJECTS SECTION
+    seeLess = document.getElementById('seeLess');//REASSIGNMENT OF EMPTY VARIABLE
     seeLess.addEventListener('click', loadLess)
   } 
 }
@@ -122,4 +121,4 @@ const loadLess = () => {
     seeMore.addEventListener('click', loadMore);
   }
 }
-    seeMore.addEventListener('click', loadMore);
+seeMore.addEventListener('click', loadMore);
