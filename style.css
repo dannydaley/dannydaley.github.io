@@ -233,6 +233,7 @@ nav li {
     margin-top: -6%;
     margin-left: 25%;
   }
+
 }
 @media (max-width: 400px) {
   #welcome-section {
@@ -251,7 +252,7 @@ nav li {
 
 /* PROJECTS START */
 #projects {
-  padding: 30vh 30px 50px 30px;
+  padding: 30vh 0px 50px 0px;
   background-image: linear-gradient(180deg, black, #303841, black);
   display: flex;
   flex-direction: row;
@@ -288,10 +289,19 @@ nav li {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30vh 0;
+    padding: 25vh 0 50px 0;
   }
+.seeMore {
+  width: 100%;
+  text-align: center;
+}
   .project-tile {
     width: 60vw;
+  }
+}
+@media (max-width: 600px) {
+    #projects {
+    padding: 25vh 0 50px 0;
   }
 }
 /* PROJECTS END */
