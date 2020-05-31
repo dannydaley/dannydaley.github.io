@@ -83,16 +83,55 @@ function changeBackground(color) {
    };
 };
 //RAW HTML FOR PAGES
-const indexHTML = ` <div class="innercontent active-element">
-        <div class="cover">
-          <h1 class="daley">.daley</h1>
+const indexHTML = `<!-- WELCOME START -->
+      <section id="welcome-section">
+        <h1>.daley<span class="colorchange">Web.Developer</span></h1>
+      </section>
+      <!-- WELCOME END -->
+      <!-- PROJECTS START -->
+      <section id="projects">
+         <div class="project-tile">
+          <a href="https://codepen.io/dannydaley/full/RwWdVEp" target="_blank"><img src="https://dannydaley.github.io/7.png" alt="">
+           <p>Final Fantasy VII:R Product Page</p> 
+          </a>          
+        </div>        
+        <div class="project-tile">
+          <a href="https://dannydaley.github.io/makkioikui/" target="_blank"><img src="https://dannydaley.github.io/mak.png" alt="">
+            <p>Makkio Ikui</p>
+          </a>
         </div>
-        <div class="sandbox">
-          <img class="html" src="html5.png" height="100px" width="100px">
-          <img class="css" src="css3.png" height="100px" width="100px">
-          <img class="js" class="play" src="jslogo.png" height="100px" width="100px">
+        <div class="project-tile">
+          <a href="https://dannydaley.github.io/captivedesign/" target="_blank">
+            <img src="https://dannydaley.github.io/cap.png" alt="">
+            <p>Captive Design Studio</p>
+          </a>
         </div>
-      </div>`;
+        <div class="project-tile"><a href="https://dannydaley.github.io/eightBall/" target="_blank">
+          <img src="https://dannydaley.github.io/8.png" alt="">
+            <p>JavaScript Magic 8-ball</p>
+          </a>
+        </div>
+        <div class="project-tile">
+          <a href="https://codepen.io/dannydaley/full/gOaEGXg" target="_blank">
+            <img src="https://dannydaley.github.io/tech.png" alt="">
+             <p>Technical Documentation</p>
+          </a>
+        </div>
+      </section>
+      <!-- PROJECTS END -->
+      <!-- CONTACT START -->
+      <section id="contact">
+        <header>Let's build something..</header>
+        <div class="contact-links">
+          <a href="https://github.com/dannydaley" target="_blank" id="profile-link" class="contact-link">
+            <i class="fab fa-github"></i> GitHub</a>
+          <a href="https://www.freecodecamp.org/dannydaley" target="_blank" class="contact-link">
+            <i class="fab fa-free-code-camp"></i> freeCodeCamp</a>
+          <a href="https://codepen.io/dannydaley" target="_blank" class="contact-link">
+            <i class="fab fa-codepen"></i> CodePen</a>
+        </div>
+      </section>
+      <!-- CONTACT END -->`;
 
 const aboutHTML = `<div class="content active-element">
       <div class="blogpost">
@@ -127,7 +166,8 @@ const blogHTML = `<div class="content active-element">
           <p>I'm an <strong>aspiring Web Developer</strong> from Newquay, Cornwall UK, and I've been writing code in my spare time for around a year.
           I'm a Machine Setter by day with the sole responsibility of keeping machines operational and running optimally, I've always loved getting something to work!</p>
           <hr>
-          <p>It's an ambition of mine to leave the day job behind and write code full-time, and I'm putting everything I've got into learning the craft and<strong> overcoming new coding challenges.</strong></p>
+          <p>It's an ambition of mine to leave the day job behind and write code full-time, and I'm putting everything I've got into learning the craft and<strong> overcoming
+           new coding challenges.</strong></p>
           <p>This blog section of my website will feature anything that I think may be of interest, but primarily I'm going to try and stay on topic and post articles regarding Web Development, more specifically things I have struggled with and either figured out or found the answer to, I haven't come across many things in life more irritating than a footer that <strong>should</strong>, but won't, stick to the bottom of the page. Hopefully this will help somebody out there daunted by the simple things, that turn out to not be that simple!
         </div>
       </div>
