@@ -6,9 +6,9 @@ const more = `
           <div class="project-slide">
             <div class="projInfo">
               <a href="https://smartbrain902101.herokuapp.com/" target="_blank">
-                <p>SmartBrain - Face recognitoon App</p>
+                <p>SmartBrain - Face recognition App</p>
               </a>  
-              <p>This face recogniton app allows you to scan any image-link for faces within the picture, this is my first project fully leveraging an API, and a fully built backend, allowing user registration, login, and a rank - based around how many images that user entered.
+              <p>This face recognition app allows you to scan any image-link for faces within the picture, this is my first project fully leveraging an API, and a fully built backend, allowing user registration, login, and a rank - based around how many images that user entered.
               The data held within the database is secure, using such technologists as Bcrypt.</p>
             </div>
             <a href="https://smartbrain902101.herokuapp.com/" target="_blank">
