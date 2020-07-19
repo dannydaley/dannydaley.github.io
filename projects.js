@@ -2,6 +2,19 @@
 const more = `
       <!-- PROJECTS START -->
       <section id="projectsSection">
+
+          <div class="project-slide">
+            <div class="projInfo">
+              <a href="https://smartbrain902101.herokuapp.com/" target="_blank">
+                <p>SmartBrain - Face recognitoon App</p>
+              </a>  
+              <p>This face recogniton app allows you to scan any image-link for faces within the picture, this is my first project fully leveraging an API, and a fully built backend, allowing user registration, login, and a rank - based around how many images that user entered.
+              The data held within the database is secure, using such technologists as Bcrypt.</p>
+            </div>
+            <a href="https://smartbrain902101.herokuapp.com/" target="_blank">
+              <img src="smartbrain.png" alt=""> 
+            </a>                   
+          </div> 
           <div class="project-slide">
             <div class="projInfo">
               <a href="https://codepen.io/dannydaley/full/RwWdVEp" target="_blank">
@@ -66,39 +79,40 @@ const more = `
       </section>`
 const less = `<!-- PROJECTS START -->
       <section id="projects">
-         <div class="project-tile">
-          <a href="https://codepen.io/dannydaley/full/RwWdVEp" target="_blank">
-            <img src="https://dannydaley.github.io/7.png" alt="">
-           <p>Final Fantasy VII:R Product Page</p> 
-          </a>          
-        </div>        
-        <div class="project-tile">
-          <a href="https://dannydaley.github.io/makkioikui/" target="_blank">
-            <img src="makki.png" alt="">
-            <p>Makkio Ikui</p>
-          </a>
-        </div>
-        <div class="project-tile">
-          <a href="http://alexjdesigns.co.uk" target="_blank">
-            <img src="alexj.png" alt="">
-             <p>Alex J Designs</p>
-          </a>
-        </div>
-        <div class="project-tile">
-          <a href="https://dannydaley.github.io/captivedesign/" target="_blank">
-            <img src="https://dannydaley.github.io/cap.png" alt="">
-            <p>Captive Design Studio</p>
-          </a>
-        </div>
-        <div class="project-tile"><a href="https://dannydaley.github.io/eightBall/" target="_blank">
-          <img src="https://dannydaley.github.io/8.png" alt="">
-            <p>JavaScript Magic 8-ball</p>
-          </a>
-        </div>
+          <div class="project-tile">
+            <a href="https://smartbrain902101.herokuapp.com/" target="_blank">
+              <img src="smartbrain.png" alt="">
+              <p>SmartBrain - Face recognition app</p>
+            </a>  
+          </div>  
+          <div class="project-tile">
+            <a href="https://codepen.io/dannydaley/full/RwWdVEp" target="_blank">
+              <img src="https://dannydaley.github.io/7.png" alt="">
+              <p>Final Fantasy VII:R Product Page</p> 
+            </a>          
+          </div>
+          <div class="project-tile">
+            <a href="https://dannydaley.github.io/captivedesign/" target="_blank">
+              <img src="https://dannydaley.github.io/cap.png" alt="">
+              <p>Captive Design Studio</p>
+            </a>
+          </div>
+          <div class="project-tile">
+            <a href="https://dannydaley.github.io/makkioikui/" target="_blank">
+              <img src="makki.png" alt="">
+              <p>Makkio Ikui</p>
+            </a>
+          </div>
+          <div class="project-tile">
+            <a href="http://alexjdesigns.co.uk" target="_blank">
+              <img src="alexj.png" alt="">
+              <p>Alex J Designs</p>
+            </a>
+          </div>
       </section><div class="seeMore">
-            <ul>
-              <li id="seeMore" class="colorchange">see more</li>
-            </ul>
+      <ul>
+        <li id="seeMore" class="colorchange">see more</li>
+          </ul>
           </div>`
 const projectWindow = document.getElementById('projWindow')          
           projectWindow.innerHTML = less;
